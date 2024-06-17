@@ -16,7 +16,7 @@ while True:
         if valor > 0:
             print(f"depoisitov realizado com sucesso R$ {valor:.2f} \n")
             saldo+=valor #adiciona valor ao saldo +=
-            extrato += f"depósitov realizado: {valor:.2f}\n"
+            extrato += f"depósito realizado: {valor:.2f}\n"
         else: #lembre-se dos "doispontos"
                  print ("Operação falhou: O valor informado é invalido")
     elif opcao =="s":
